@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.952);
+
 }
 
 .background_gif {
     height: 100vh;
+    width: 100%;
     background: url(public/wallpaper_blue_setup.gif) no-repeat top center/cover;
 }
 
@@ -24,16 +29,15 @@ header {
     gap: 60px;
 }
 
-.menu p {
+.menu a {
+    text-decoration: none;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     padding: 4px 16px;
-
-    cursor: pointer;
 }
 
-.menu p:hover {
+.menu a:hover {
     border-bottom: 3px ridge rgba(0, 255, 255, 1);
     transition: 0.1s;
 }
@@ -60,4 +64,40 @@ header {
     line-height: 42px;
 
     color: #87CEFA;
+}
+
+/*  */
+
+.content-container {
+    padding: 20px 71px;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mim h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #87CEFA;
+
+    text-align: center;
+
+    margin-bottom: 23px;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin-bottom: 20px;
+}
+
+.about-me-container p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
 }
