@@ -30,7 +30,7 @@ var arrayProjects = [
 for (var indice = 0; indice < arrayProjects.length; indice++) {
     var projects = document.getElementById("projects")
     projects.innerHTML += `
-    <a href=${arrayProjects[indice].webLink}><img src=${arrayProjects[indice].imgURL} alt="img-project"></a>
+    <a href=${arrayProjects[indice].webLink} target="_blank"><img src=${arrayProjects[indice].imgURL} alt="img-project"></a>
     `
 }
 
