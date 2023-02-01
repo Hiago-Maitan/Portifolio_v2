@@ -11,6 +11,8 @@ body {
 
 }
 
+/* Header */
+
 .background_gif {
     height: 100vh;
     width: 100%;
@@ -66,18 +68,14 @@ header {
     color: #87CEFA;
 }
 
-/*  */
+/* About me */
 
 .content-container {
     padding: 20px 71px;
+    border: 1px solid red;
 }
 
-.sobre-mim {
-    display: flex;
-    flex-direction: column;
-}
-
-.sobre-mim h1 {
+.content-container h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -88,7 +86,7 @@ header {
     margin-bottom: 23px;
 }
 
-.about-me-container {
+.about-me-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -96,8 +94,28 @@ header {
     margin-bottom: 20px;
 }
 
-.about-me-container p{
+.about-me-text p {
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
+}
+
+/* Projects */
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+}
+
+.projects img {
+    width: 301px;
+    height: 254px;
+    border: 1.2px solid #3F3838;
+    border-radius: 8px;
 }
