@@ -1,26 +1,26 @@
 var arrayProjects = [
     {
-        imgURL: "../public/devLinks.PNG",
+        imgURL: "../public/imgProjects/devLinks.PNG",
         webLink: "https://my-dev-links-henna.vercel.app/"
     },
     {
-        imgURL: "../public/formMultistep.png",
-        webLink: "https://form-multistep.vercel.app/"
+        imgURL: "../public/imgProjects/formMultistep.png",
+        webLink: "https://fimgProjects/orm-multistep.vercel.app/"
     },
     {
-        imgURL: "../public/habits.PNG",
-        webLink: "https://hiago-maitan.github.io/Habit_Tracker/"
+        imgURL: "../public/imgProjects/habits.PNG",
+        webLink: "https://himgProjects/iago-maitan.github.io/Habit_Tracker/"
     },
     {
-        imgURL: "../public/snapclima.PNG",
-        webLink: "https://hiago-maitan.github.io/Snapclima/"
+        imgURL: "../public/imgProjects/snapclima.PNG",
+        webLink: "https://himgProjects/iago-maitan.github.io/Snapclima/"
     },
     {
-        imgURL: "../public/rocketcoffee.png",
-        webLink: "https://bright-chimera-e4e454.netlify.app/"
+        imgURL: "../public/imgProjects/rocketcoffee.png",
+        webLink: "https://bimgProjects/right-chimera-e4e454.netlify.app/"
     },
     {
-        imgURL: "../public/pokeTrunfo.PNG",
+        imgURL: "../public/imgProjects/pokeTrunfo.PNG",
         webLink: "https://hiago-maitan.github.io/Super_PokeTrunfo/"
     },
 ]
