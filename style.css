@@ -25,7 +25,7 @@ body {
 .background_gif {
     height: 100vh;
     width: 100%;
-    background: url(public/wallpaper_blue_setup.gif) no-repeat top center/cover;
+    background: url(assets/wallpaper_blue_setup.gif) no-repeat top center/cover;
 }
 
 header {
