@@ -25,13 +25,17 @@ body {
 .background_gif {
     height: 100vh;
     width: 100%;
-    background: url(assets/wallpaper_blue_setup.gif) no-repeat top center/cover;
+    background: url(public/wallpaper_blue_setup.gif) no-repeat top center/cover;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 31px 19px;
+}
+
+#burger {
+    display: none;
 }
 
 .menu {
@@ -51,6 +55,28 @@ header {
 .menu a:hover {
     border-bottom: 3px ridge rgba(0, 255, 255, 1);
     transition: 0.1s;
+}
+
+.menuList {
+    display: none;
+}
+
+.menuList>ul {
+    list-style-type: none;
+}
+
+.menuList>ul>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #87CEFA;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.menuList>ul>li>a:hover {
+    background-color: #87cefaa4;
 }
 
 .apresentation {
@@ -128,7 +154,7 @@ header {
     border-radius: 8px;
 }
 
-.projects img:hover{
+.projects img:hover {
     border: 1.5px solid white;
 }
 
@@ -143,7 +169,7 @@ header {
 
 /* Social Links */
 
-.social-links{
+.social-links {
     display: flex;
     justify-content: center;
 
@@ -169,8 +195,23 @@ header {
 
 /* Footer */
 
-footer{
+footer {
     font-style: italic;
     text-align: center;
     margin-bottom: 20px;
+}
+
+@media(max-width:700px) {
+    .menu {
+        display: none;
+    }
+
+    #burger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menuList{
+        display: block;
+    }
 }

@@ -10,9 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio v2 - Hiago Maitan</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon">
+    <link rel="shortcut icon" href="public/profile.png" type="image/x-icon">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <div class="background_gif">
         <header>
             <div class="home_name">
-                <img src="assets/logos/logo.png" alt="Logo">
+                <img src="public/logo.png" alt="Logo">
             </div>
             <div class="menu">
                 <a href="#">Home</a>
@@ -29,7 +29,17 @@
                 <a href="#">Projetos</a>
                 <a href="#">Skills</a>
             </div>
+            <i id="burger" class="material-icons" onclick="viewMenu()">menu</i>
         </header>
+
+        <menu class="menuList" id="menuList">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Mim</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Skills</a></li>
+            </ul>
+        </menu>
 
         <div class="apresentation">
             <p class="text-apresentation">Olá, meu nome é</p>
@@ -39,7 +49,7 @@
     </div>
 
     <!-- Sobre Mim -->
-    <div class="content-container">
+    <main class="content-container">
         <div class="about-me-container">
             <h1>Sobre Mim</h1>
             <div class="about-me-text">
@@ -64,11 +74,11 @@
         <div class="skills-container">
             <h1>Skills</h1>
             <div class="skills">
-                <div><img src="assets/logos/logo-html.png" alt="logo-html"></div>
-                <div><img src="assets/logos/logo-css.png" alt="logo-css"></div>
-                <div><img src="assets/logos/logo-javascript.png" alt="logo-javascript"></div>
-                <div><img src="assets/logos/logo-react.png" alt="logo-react"></div>
-                <div><img src="assets/logos/logo-github.png" alt="logo-github"></div>
+                <div><img src="public/logo-html.png" alt=""></div>
+                <div><img src="public/logo-css.png" alt=""></div>
+                <div><img src="public/logo-javascript.png" alt=""></div>
+                <div><img src="public/logo-react.png" alt=""></div>
+                <div><img src="public/logo-github.png" alt=""></div>
             </div>
         </div>
 
@@ -85,16 +95,14 @@
                 <ion-icon name="mail-outline"></ion-icon>
             </a>
         </div>
-    </div>
+    </main>
 
     <footer>
         © Todos os direitos reservados 2023 | Desenvolvido por Hiago Maitan
     </footer>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <script src="script.js"></script>
+    <script src="scripts/viewMenu.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
