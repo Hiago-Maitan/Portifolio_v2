@@ -193,6 +193,28 @@ header {
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* Botão para voltar ao topo */
+
+.div_backToTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_backToTop{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    border-radius: 30px;
+    padding: 15px 33px;
+    cursor: pointer;
+    background-color: #87CEFA;
+}
+
+.btn_backToTop:hover{
+    background-color: #1098ec;
+}
+
 /* Footer */
 
 footer {
