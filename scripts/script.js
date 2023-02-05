@@ -1,26 +1,26 @@
 var arrayProjects = [
     {
-        imgURL: "../assets/devLinks.PNG",
+        imgURL: "../assets/imgProjects/devLinks.PNG",
         webLink: "https://my-dev-links-henna.vercel.app/"
     },
     {
-        imgURL: "../assets/formMultistep.png",
+        imgURL: "../assets/imgProjects/formMultistep.png",
         webLink: "https://form-multistep.vercel.app/"
     },
     {
-        imgURL: "../assets/habits.PNG",
+        imgURL: "../assets/imgProjects/habits.PNG",
         webLink: "https://hiago-maitan.github.io/Habit_Tracker/"
     },
     {
-        imgURL: "../assets/snapclima.PNG",
+        imgURL: "../assets/imgProjects/snapclima.PNG",
         webLink: "https://hiago-maitan.github.io/Snapclima/"
     },
     {
-        imgURL: "../assets/rocketcoffee.png",
+        imgURL: "../assets/imgProjects/rocketcoffee.png",
         webLink: "https://bright-chimera-e4e454.netlify.app/"
     },
     {
-        imgURL: "../assets/pokeTrunfo.PNG",
+        imgURL: "../assets/imgProjects/pokeTrunfo.PNG",
         webLink: "https://hiago-maitan.github.io/Super_PokeTrunfo/"
     },
 ]
