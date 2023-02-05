@@ -6,3 +6,12 @@ const scrollToSkills = () =>{
 };
 
 document.querySelector("#menu_skills").onclick = scrollToSkills;
+
+const scrollToHamburgerSkills = () =>{
+    window.scroll({
+        top: 4000,
+        behavior:"smooth",
+    });
+};
+
+document.querySelector("#menuHamburger_skills").onclick = scrollToHamburgerSkills;
