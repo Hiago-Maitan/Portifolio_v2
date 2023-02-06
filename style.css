@@ -1,3 +1,5 @@
+/* Styles Scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -7,12 +9,17 @@
     border-radius: 5px;
 }
 
+/*  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

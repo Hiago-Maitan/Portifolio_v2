@@ -21,23 +21,25 @@
     <div class="background_gif">
         <header>
             <div class="home_name">
-                <img src="assets/logos/logo.png" alt="Logo">
+                <a href="https://github.com/Hiago-Maitan" target="_blank">
+                    <img src="assets/logos/logo.png" alt="Logo">
+                </a>
             </div>
+
             <div class="menu">
-                <a href="#">Home</a>
-                <a href="#" id="menu_aboutMe">Sobre Mim</a>
-                <a href="#" id="menu_projects">Projetos</a>
-                <a href="#" id="menu_skills">Skills</a>
+                <a href="#menu_aboutMe">Sobre Mim</a>
+                <a href="#menu_projects">Projetos</a>
+                <a href="#menu_skills">Skills</a>
             </div>
+            
             <i id="burger" class="material-icons" onclick="viewMenu()">menu</i>
         </header>
 
         <menu class="menuList" id="menuList">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" id="menuHamburger_aboutMe">Sobre Mim</a></li>
-                <li><a href="#" id="menuHamburger_projects">Projetos</a></li>
-                <li><a href="#" id="menuHamburger_skills">Skills</a></li>
+                <li><a href="#menu_aboutMe">Sobre Mim</a></li>
+                <li><a href="#menu_projects">Projetos</a></li>
+                <li><a href="#menu_skills">Skills</a></li>
             </ul>
         </menu>
 
@@ -50,8 +52,8 @@
 
     <!-- Sobre Mim -->
     <main class="content-container">
-        <div class="about-me-container">
-            <h1>Sobre Mim</h1>
+        <section class="about-me-container">
+            <h1 id="menu_aboutMe">Sobre Mim</h1>
             <div class="about-me-text">
                 <p>Olá visitante :) Sou de Osasco-SP mas não precisa ter medo.</p>
                 <p>Já atuei na área de cyber security, porém atualmente estou estudando para me tornar um desenvedor
@@ -62,16 +64,18 @@
                 <p>Tenho conhecimentos em JavaScript e, no momento, estou me aprofundando em ReactJs, buscando melhores
                     padrões de projetos e performance.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="projects-container">
+        <!-- Projetos -->
+        <section class="projects-container" id="menu_projects">
             <h1>Projetos</h1>
             <div class="projects" id="projects">
                 <!-- <a href="" id="aLinkProject"><img src="" alt="img-project" id="imgProject"></a> -->
             </div>
-        </div>
+        </section>
 
-        <div class="skills-container">
+        <!-- Skills -->
+        <section class="skills-container" id="menu_skills">
             <h1>Skills</h1>
             <div class="skills">
                 <div><img src="assets/logos/logo-html.png" alt=""></div>
@@ -80,7 +84,7 @@
                 <div><img src="assets/logos/logo-react.png" alt=""></div>
                 <div><img src="assets/logos/logo-github.png" alt=""></div>
             </div>
-        </div>
+        </section>
 
         <div class="social-links">
             <a href="https://github.com/Hiago-Maitan" target="_blank">
@@ -109,13 +113,9 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <script src="scripts/script.js"></script>
+    <script src="scripts/viewProjects.js"></script>
     <script src="scripts/viewMenu.js"></script>
-
     <script src="scripts/backToTop.js"></script>
-    <script src="scripts/scrollToAboutMe.js"></script>
-    <script src="scripts/scrollToProjects.js"></script>
-    <script src="scripts/scrollToSkills.js"></script>
 </body>
 
 </html>
