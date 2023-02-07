@@ -36,22 +36,23 @@ body {
 }
 
 header {
+    height: 70px;
+    padding: 31px 19px;
     display: flex;
     justify-content: space-between;
-    padding: 31px 19px;
 }
 
-#burger {
+#btn-mobile {
     display: none;
 }
 
-.menu {
+.nav {
     margin-right: 24px;
     display: flex;
     gap: 60px;
 }
 
-.menu a {
+.nav a {
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
@@ -59,20 +60,20 @@ header {
     padding: 4px 16px;
 }
 
-.menu a:hover {
+.nav a:hover {
     border-bottom: 3px ridge rgba(0, 255, 255, 1);
     transition: 0.1s;
 }
 
-.menuList {
+.navList {
     display: none;
 }
 
-.menuList>ul {
+.navList>ul {
     list-style-type: none;
 }
 
-.menuList>ul>li>a {
+.navList>ul>li>a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -82,7 +83,7 @@ header {
     border-top: 1px solid black;
 }
 
-.menuList>ul>li>a:hover {
+.navList>ul>li>a:hover {
     background-color: #87cefaa4;
 }
 
@@ -179,9 +180,7 @@ header {
 .social-links {
     display: flex;
     justify-content: center;
-
     padding: 24px 0;
-
     font-size: 24px;
 }
 
@@ -231,21 +230,54 @@ footer {
 }
 
 /* Fazer o icone hamburger aparecer com o tamanho da largura */
-@media(max-width:700px) {
 
-    .menu {
-        display: none;
-    }
-
-    #burger {
+@media(max-width: 700px) {
+    #btn-mobile {
         display: flex;
         cursor: pointer;
     }
-}
 
-/* Fazer o menu lista desaparecer com o tamanho da largura */
-@media(min-width: 701px) {
-    .menuList>ul>li>a {
-        display: none;
+    #header.active {
+        background: #1098ec;
+        transition: 0.1s;
+    }
+
+    #header {
+        background: transparent;
+        transition: 1s;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #1098ec;
+        transition: .6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        font-weight: 500;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+
+    #menu a:hover {
+        padding: 1.3rem 0;
+        transition: .1s;
     }
 }
