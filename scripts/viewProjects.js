@@ -20,8 +20,8 @@ var arrayProjects = [
         webLink: "https://bright-chimera-e4e454.netlify.app/"
     },
     {
-        imgURL: "../assets/imgProjects/pokeTrunfo.PNG",
-        webLink: "https://hiago-maitan.github.io/Super_PokeTrunfo/"
+        imgURL: "../assets/imgProjects/Calculadora.PNG",
+        webLink: "https://hiago-maitan.github.io/Calculadora/"
     },
 ]
 
