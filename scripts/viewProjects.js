@@ -16,8 +16,8 @@ var arrayProjects = [
         webLink: "https://hiago-maitan.github.io/Snapclima/"
     },
     {
-        imgURL: "../assets/imgProjects/rocketcoffee.png",
-        webLink: "https://bright-chimera-e4e454.netlify.app/"
+        imgURL: "../assets/imgProjects/tela-login.PNG",
+        webLink: "https://hiago-maitan.github.io/Tela-De-Login/"
     },
     {
         imgURL: "../assets/imgProjects/Calculadora.PNG",
@@ -33,14 +33,4 @@ for (var indice = 0; indice < arrayProjects.length; indice++) {
     <a href=${arrayProjects[indice].webLink} target="_blank"><img src=${arrayProjects[indice].imgURL} alt="img-project"></a>
     `
 }
-
-// for (var indice = 0; indice < arrayProjects.length; indice++) {
-//     var aLinkProject = document.getElementById("aLinkProject")
-//     var imgProject = document.getElementById("imgProject")
-//     aLinkProject.href += `${arrayProjects[indice].webLink}`
-//     imgProject.src += `${arrayProjects[indice].imgURL}`
-// }
-
-
-
 
