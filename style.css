@@ -208,6 +208,7 @@ header {
 }
 
 .btn_backToTop {
+    border: none;
     font-size: 15px;
     font-weight: 600;
     color: black;
