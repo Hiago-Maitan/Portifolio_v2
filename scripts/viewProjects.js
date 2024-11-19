@@ -1,27 +1,35 @@
 var arrayProjects = [
   {
-    imgURL: "../assets/imgProjects/bikcraft.jpg",
+    imgURL: "assets/imgProjects/bikcraft.jpg",
     webLink: "https://hiago-maitan.github.io/Bikcraft/",
   },
   {
-    imgURL: "../assets/imgProjects/tela-login.PNG",
+    imgURL: "assets/imgProjects/tela-login.PNG",
     webLink: "https://hiago-maitan.github.io/Tela-De-Login/",
   },
   {
-    imgURL: "../assets/imgProjects/adacoffee.PNG",
-    webLink: "https://hiago-maitan.github.io/AdaCoffee/",
+    imgURL: "assets/imgProjects/sartori.png",
+    webLink: "https://www.sartoriesquadriasrp.com.br/",
   },
   {
-    imgURL: "../assets/imgProjects/devLinks.PNG",
-    webLink: "https://my-dev-links-henna.vercel.app/",
+    imgURL: "assets/imgProjects/mi2.png",
+    webLink: "https://www.localhost/mi2engenharia.com.br/",
   },
   {
-    imgURL: "../assets/imgProjects/formMultistep.png",
+    imgURL: "assets/imgProjects/formMultistep.png",
     webLink: "https://form-multistep.vercel.app/",
   },
   {
-    imgURL: "../assets/imgProjects/snapclima.PNG",
+    imgURL: "assets/imgProjects/snapclima.PNG",
     webLink: "https://hiago-maitan.github.io/Snapclima/",
+  },
+  {
+    imgURL: "assets/imgProjects/novafitos.png",
+    webLink: "https://www.novafitos.com.br/",
+  },
+  {
+    imgURL: "assets/imgProjects/viandarefeicoes.png",
+    webLink: "https://www.viandarefeicoes.com.br/",
   }
 ];
 
